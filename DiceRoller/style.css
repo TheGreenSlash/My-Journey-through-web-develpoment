@@ -1,0 +1,33 @@
+#lab1{
+    display: block;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+#dice{
+    display: block;
+    font-size: 50px;
+    text-align: center;
+}
+
+button:active{
+    background-color: lightblue;
+}
+
+#roll{
+
+    position: relative;
+    margin-top: 3%;
+    margin-left: 45%;
+    width: 150px;
+    height: 70px;
+    font-family: "calibri";
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
