@@ -1,0 +1,53 @@
+
+body{
+    
+    background-image: linear-gradient(to bottom right  ,#0f171f, #150f30);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+
+#lab1{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 5%;
+}
+
+#lab2{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px
+}
+
+#guess{
+    margin-left: 40%;
+    position: relative;
+    width: 250px;
+    height: 50px;
+    border: solid;
+    margin-right: 10px;
+    font-family: "calibri";
+    font-size: 30px;
+    color: black;
+}
+
+#btn{   
+
+    width: 100px;
+    height: 48px;
+    border:thin;
+}
+
+#btn:active{
+    background-color: tomato;
+}
+
+#answer{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    
+}
