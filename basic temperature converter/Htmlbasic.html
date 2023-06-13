@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verma Hardware & Suppliers</title>
+    <link rel = "stylesheet" href="style.css" ></link>
+</head>
+
+<body>
+
+    <label id = "lab1">Temperature Converter</label><br>
+
+    <label for="temp" id = "lab2">Enter the Temperature</label><br>
+    <input type="text" name="tempValue" id="temp"><br>
+
+    <label id = "lab3">Covert to:</label><br>
+
+    <input type="radio" name = "unit" id="choice1"></input>
+    <label for="choice1" id = "tlab1">Fahrenheit</label><br>
+
+    <input type="radio" name = "unit" id="choice2"></input>
+    <label  for = "choice2" id ="tlab2">Celsius</label><br>
+    
+   
+    <button type="submit" id="btn">Convert</button>
+    <button  type="reset" id = "btn2" name="Reset" onclick="reset()">Reset</button><br><br>
+    
+    <label id = "answer"></label>
+
+    
+    <script src="index.js"></script>
+</body>
+</html>
